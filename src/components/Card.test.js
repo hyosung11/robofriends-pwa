@@ -6,4 +6,4 @@ it('expect to render Card component', () => {
   expect(shallow(<Card />).length).toEqual(1)
 });
 
-console.log(shallow(<Card />));
+// console.log(shallow(<Card />));
