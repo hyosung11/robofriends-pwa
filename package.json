@@ -19,7 +19,7 @@
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "snyk test && react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "browserslist": {
@@ -37,6 +37,7 @@
   "devDependencies": {
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
-    "redux-mock-store": "^1.5.4"
+    "redux-mock-store": "^1.5.4",
+    "snyk": "^1.271.0"
   }
 }
